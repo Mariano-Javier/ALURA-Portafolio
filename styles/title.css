@@ -1,0 +1,42 @@
+.title {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 80vw;
+}
+
+.title__div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.title__profile {
+  margin-left: 20px;
+  max-width: 368px;
+  max-height: 368px;
+}
+
+.title__bio {
+  color: #464646;
+  font-size: 3.5rem;
+}
+
+.title__subsection {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.title__network {
+  display: flex;
+  padding: 0;
+}
+
+.title__network__item {
+  margin-right: 30px;
+}
+
+.title__network__item > a > img {
+  margin-left: 5px;
+}

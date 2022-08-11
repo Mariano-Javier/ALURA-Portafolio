@@ -1,0 +1,32 @@
+.skills{
+    height: 50vh;
+}
+
+.skills__title{
+    color: #464646;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.skills__box{
+    width: 176px;
+    height: 176px;
+    background-color: white;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+}
+
+.skills__box > ul{
+padding-left: 20px;
+}

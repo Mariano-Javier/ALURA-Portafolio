@@ -1,0 +1,23 @@
+.about{
+    height: 44vh;
+    display: flex;
+    align-items: center;
+    background-color: #EAF2FD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about__container{
+    margin: auto;
+    max-width: 80vw;
+    background-color: #EAF2FD;
+}
+
+
+.about__title{
+    color: #464646;
+    font-size: 2rem;
+}
+.about__paragraph{
+    width: 65%;
+}

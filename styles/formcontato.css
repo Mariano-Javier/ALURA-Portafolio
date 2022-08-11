@@ -1,0 +1,47 @@
+.formcontato__contacto{
+    display: flex;
+}
+
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+
+}
+
+.formcontato__text{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formcontato__title{
+    margin-top: 0;
+    color: #464646;
+    font-size: 2rem;
+}
+
+.formcontato__subtext{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.formcontato__input{
+
+    height: 56px;
+}
+
+.formcontato__textarea{
+    height: 133px;
+}
+
+.formcontato__botao{
+    font-family: "Raleway";
+    font-size: 0.9rem;
+    width: 144px;
+    height: 51px;
+    color: white;
+    background-color: #2a7ae4;
+    border: none;
+}

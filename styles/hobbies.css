@@ -1,0 +1,32 @@
+.hobbies{
+    height: 50vh;
+}
+
+.hobbies__title{
+    color: #464646;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.hobbies__box{
+    width: 176px;
+    height: 176px;
+    background-color: white;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+}
+
+.hobbies__box > ul{
+padding-left: 20px;
+}
