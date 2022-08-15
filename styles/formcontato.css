@@ -1,47 +1,145 @@
-.formcontato__contacto{
-    display: flex;
+:root {
+  --font-family-body: "Montserrat", sans-serif;
+  --font-family-logo: "Pacifico", cursive;
+
+  --font-weigth-input: 300;
+
+  --font-size-logo: 28px;
+  --font-size-card-title: 28px;
+  --font-size-input-label: 20px;
+  --font-size-button: 22px;
+  --font-size-form-fieldset: 22px;
+  --font-size-table-header: 22px;
+  --font-size-modal-title: 28px;
+  --font-size-modal-button: 28px;
+
+  --primary-color: #0071ea;
+  --secondary-color: #d6eaff;
+  --contrast-dark-color: #4d4d4d;
+
+  --contrast-light-color: #fff;
+  --warning-color: #df2525;
+  --success-color: #047900;
+  --transparency-color: #4d4d4d33;
+
+  --shadow: 0 5px 10px #55a6ff38;
 }
 
-.formcontato__form{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
+.formcontato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 100vh;
 
+  background-color: #eaf2fd;
 }
 
-.formcontato__text{
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
+.formcontato__contacto {
+  display: flex;
 }
 
-.formcontato__title{
-    margin-top: 0;
-    color: #464646;
-    font-size: 2rem;
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
 }
 
-.formcontato__subtext{
-    margin-top: 0;
-    margin-bottom: 5px;
+.formcontato__text {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
-.formcontato__input{
+.formcontato__title {
+  margin-top: 0;
+  color: #464646;
+  font-size: 2rem;
+}
 
-    height: 56px;
+.formcontato__subtext {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/* .formcontato__input {
+  height: 56px;
+} */
+
+/* .formcontato__textarea {
+  height: 133px;
+} */
+
+.formcontato__botao {
+  font-family: "Raleway";
+  font-size: 0.9rem;
+  width: 144px;
+  height: 51px;
+  color: white;
+  background-color: #2a7ae4;
+  border: none;
+}
+/* efecto */
+.formcontato__input {
+  box-sizing: border-box;
+  border-color: Transparent; 
+  font-size:20px;
+  border-radius: 5px;
+  border-bottom: 2px solid lightgray;
+  padding: 1.375rem 0.5rem 0.5rem;
+  height: 3.25rem;
+  width: 100%;
+}
+
+.formcontato__input:focus {
+  outline: none;
+}
+
+.formcontato__input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.input-label {
+  color: #A2A2A2;
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 20px;
+  transition: all 0.25s;
+}
+
+.formcontato__input:not(:placeholder-shown) + .input-label,
+.formcontato__input:focus + .input-label {
+  font-size: 0.8rem;
+  top: 0.30rem;
+  transition: all 0.25s;
+}
+
+textarea {
+  border-radius: 5px;
+  border-color: Transparent;
+  border-bottom: 2px solid lightgray;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+  color: #A2A2A2;
+  font-family: "Raleway";
+  padding: 1.375rem 0.5rem 0.5rem;
 }
 
 .formcontato__textarea{
-    height: 133px;
+  height: 133px;
 }
 
-.formcontato__botao{
-    font-family: "Raleway";
-    font-size: 0.9rem;
-    width: 144px;
-    height: 51px;
-    color: white;
-    background-color: #2a7ae4;
-    border: none;
-}
