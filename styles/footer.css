@@ -1,6 +1,5 @@
 .footer{
-    height: 5vh;
-    width: 98vw;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,10 +7,7 @@
 }
 
 .footer__rodape{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer__rodape  p{

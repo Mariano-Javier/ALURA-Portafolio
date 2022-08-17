@@ -3,26 +3,25 @@
   display: flex;
   align-items: center;
   margin: auto;
-  max-width: 80vw;
 }
 
 .title__div {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  align-items: center;
+  max-width: 1152px;
+  margin: auto;
+  padding: 0 30px;
 }
 
 .title__profile {
-  width: 23vw;
-  height: 23vw;
+  width: 19vw;
+  height: 19vw;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.title__profile > img{
-  max-width: 368px;
-  max-height: 368px;
+  margin-right: 5px;
 }
 
 .title__bio {

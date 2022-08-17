@@ -2,6 +2,12 @@
     height: 50vh;
 }
 
+.skills__container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 30px;
+}
+
 .skills__title{
     color: #464646;
     text-align: center;
@@ -11,16 +17,14 @@
 .skills__line{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-   
+    justify-content: space-between;
 }
 
 .skills__box{
     width: 176px;
     height: 176px;
     background-color: white;
-    margin-right: 2vw;
-    margin-top: 2vw;
+    margin-bottom: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;

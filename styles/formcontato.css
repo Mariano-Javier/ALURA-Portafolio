@@ -1,42 +1,16 @@
-:root {
-  --font-family-body: "Montserrat", sans-serif;
-  --font-family-logo: "Pacifico", cursive;
-
-  --font-weigth-input: 300;
-
-  --font-size-logo: 28px;
-  --font-size-card-title: 28px;
-  --font-size-input-label: 20px;
-  --font-size-button: 22px;
-  --font-size-form-fieldset: 22px;
-  --font-size-table-header: 22px;
-  --font-size-modal-title: 28px;
-  --font-size-modal-button: 28px;
-
-  --primary-color: #0071ea;
-  --secondary-color: #d6eaff;
-  --contrast-dark-color: #4d4d4d;
-
-  --contrast-light-color: #fff;
-  --warning-color: #df2525;
-  --success-color: #047900;
-  --transparency-color: #4d4d4d33;
-
-  --shadow: 0 5px 10px #55a6ff38;
-}
-
 .formcontato {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 98vw;
   height: 100vh;
-
   background-color: #eaf2fd;
 }
 
 .formcontato__contacto {
   display: flex;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 30px;
 }
 
 .formcontato__form {
@@ -62,14 +36,6 @@
   margin-top: 0;
   margin-bottom: 5px;
 }
-
-/* .formcontato__input {
-  height: 56px;
-} */
-
-/* .formcontato__textarea {
-  height: 133px;
-} */
 
 .formcontato__botao {
   font-family: "Raleway";

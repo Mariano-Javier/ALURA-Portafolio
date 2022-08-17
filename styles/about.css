@@ -9,8 +9,9 @@
 
 .about__container{
     margin: auto;
-    max-width: 80vw;
+    max-width: var(--max-width);
     background-color: #EAF2FD;
+    padding: 0 30px;
 }
 
 

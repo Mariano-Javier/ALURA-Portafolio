@@ -1,10 +1,15 @@
 .academic {
   height: 100vh;
   background-color: #eaf2fd;
+  margin: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+}
+
+.academic__container{
+  width: var(--max-width);
+  margin: auto;
+  padding: 0 30px;
 }
 
 .academic__title {
@@ -16,12 +21,14 @@
 .academic__courses {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.academic__courses__box {
-  margin-right: 1rem;
+.academic__courses__list{
+  padding-left: 0;
 }
+
+
 .academic__courses__item__img {
   background-color: white;
   padding: 60px 80px;
