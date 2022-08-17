@@ -13,7 +13,14 @@
 }
 
 .title__profile {
-  margin-left: 20px;
+  width: 23vw;
+  height: 23vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title__profile > img{
   max-width: 368px;
   max-height: 368px;
 }

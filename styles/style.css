@@ -1,12 +1,16 @@
+@import url(./about.css);
+@import url(./academic.css);
+@import url(./experience.css);
+@import url(./footer.css);
+@import url(./formcontato.css);
+@import url(./hobbies.css);
+@import url(./menu.css);
+@import url(./skills.css);
+@import url(./title.css);
+
 /*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
 
 :root {
-  /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-  /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
   --cor-de-fundo: #f5f5f5;
   --cor-de-link: #000;
 }
@@ -19,73 +23,138 @@ body {
   padding: 0;
   line-height: 1;
 }
+
 ol,
 ul,
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: var(--cor-de-link);
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Lo que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
-
-/*Sección About*/
-
-section.about {
-}
-
-/*Sección Hobbies*/
-
-section.hobbies {
-}
-
-/* Experiencia Académica*/
-
-section.academic {
-}
-
-/* experiencia*/
-
-section.experience {
-}
-
-/*Contacto*/
-
-section.formcontato {
-}
-
-/*footeer*/
-
-section.footer {
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
+/* .main__container {
+  width: 1440px;
+  margin: 0px auto;
+} */
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   /* Menú */
+  .menu {
+    width: 90vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu__list {
+    display: none;
+  }
 
   /*title*/
+  .title {
+    max-width: 90vw;
+  }
+
+  .title__bio {
+    font-size: 1.5rem;
+  }
+
+  .title__subsection {
+    font-size: 1rem;
+  }
+
+  .title__profile > img {
+    max-width: 146px;
+    max-height: 146px;
+  }
+
+  /* About */
+
+  .about__title {
+    font-size: 1.5rem;
+  }
+
+  .about__container {
+    max-width: 90vw;
+  }
+
+  .about__paragraph {
+    width: 100%;
+    font-size: 0.8rem;
+  }
 
   /*Skills*/
+  .skills__title {
+    font-size: 1.5rem;
+  }
+
+  .skills {
+    height: 50vh;
+  }
+  .skills__box {
+    width: 224px;
+    height: 118px;
+    margin-right: 0;
+  }
+  .skills__line {
+    justify-content: space-evenly;
+  }
 
   /*Hobbies*/
+  .hobbies {
+    height: 50vh;
+  }
 
+  .hobbies__title {
+    font-size: 1.5rem;
+  }
+  .hobbies__box {
+    width: 224px;
+    height: 118px;
+    margin-right: 0;
+  }
+  .hobbies__line {
+    justify-content: space-evenly;
+  }
   /*Formación Académica*/
+  .academic {
+    height: 50vh;
+  }
+
+  .academic__courses__item__img {
+    background-color: white;
+    padding: 20px 4px;
+  }
+
+  .academic__courses__item__title {
+    font-size: 1rem;
+    color: #464646;
+  }
+  .academic__courses__item__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .academic__courses__item__img > img {
+    width: 60%;
+  }
+
+  .academic__courses__list {
+    padding: 0;
+  }
+
+  .academic__courses__box {
+    margin-left: 1rem;
+  }
+
+  .academic__title {
+    font-size: 1.5rem;
+  }
 
   /*Experiencia Profesional*/
 }
