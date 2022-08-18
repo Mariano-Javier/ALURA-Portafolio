@@ -1,0 +1,19 @@
+.input-message-error {
+  font-size: small;
+  margin: 2px;
+  color: red;
+}
+
+.input-hide{
+    visibility: hidden;
+}
+
+.input-container--invalid .input-message-error {
+    visibility: initial;
+}
+
+
+.input-container--invalid .formcontato__input{
+    border-bottom: 2px solid red;
+
+}
