@@ -18,6 +18,7 @@
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
+  margin-bottom: 0;
 }
 
 .formcontato__text {
@@ -50,6 +51,7 @@
 }
 /* efecto */
 .formcontato__input {
+  color: #464646;
   box-sizing: border-box;
   border-color: Transparent; 
   font-size:20px;

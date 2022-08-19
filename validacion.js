@@ -42,8 +42,10 @@ function valida(input) {
 
   if (input.validity.valid) {
     input.parentElement.classList.remove("input-container--invalid");
+    input.parentElement.querySelector(".formcontato__input").classList.add("borde-azul");
   } else {
     input.parentElement.classList.add("input-container--invalid");
+    input.parentElement.querySelector(".formcontato__input").classList.remove("borde-azul");
     input.parentElement.querySelector(".input-message-error").innerHTML =
       mostrarMensajeDeError(tipoDeInput, input);
   }
