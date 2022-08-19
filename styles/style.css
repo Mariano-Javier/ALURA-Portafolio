@@ -204,6 +204,7 @@ a {
   .title__profile {
     width: 23vw;
     height: 23vw;
+    margin: auto;
   }
   .title__network__item {
     font-size: 0.8rem;

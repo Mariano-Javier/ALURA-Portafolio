@@ -8,11 +8,12 @@
   color: #464646;
   text-align: center;
   font-size: 2rem;
+  margin-top: 2.5rem;
 }
 
 .experience__box {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 6rem;
 }
 
 .experience__info {
@@ -24,7 +25,7 @@
 }
 
 .experience__title {
-  margin: 5px 5px;
+  margin: 5px 0px;
   margin-bottom: 5px;
   font-size: 1.7rem;
 }
@@ -60,8 +61,9 @@
   width: 105px;
   height: 51px;
   color: white;
-  background-color: #2a7ae4;
+  background-color: #e4882a;
   border: none;
+  border-radius: 5px;
 }
 
 .experiencia__botao--repo {
@@ -69,8 +71,9 @@
   font-size: 0.9rem;
   width: 105px;
   height: 51px;
-  color: #2a7ae4;
-  background-color: none;
-  border: 2px solid #2a7ae4;
+  color: #e4882a;
+  background-color: white;
+  border: 2px solid #e4882a;
   margin-right: 20px;
+  border-radius: 5px;
 }

@@ -3,7 +3,9 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #eaf2fd;
+  background-color: #ffe89c;
+  background-image: linear-gradient(90deg, #ffe89c 0%, #ffa56b 100%);
+
 }
 
 .formcontato__contacto {
@@ -40,13 +42,18 @@
   margin-bottom: 5px;
 }
 
+.formcontato__img{
+  border-radius: 30px;
+}
+
 .formcontato__botao {
   font-family: "Raleway";
   font-size: 0.9rem;
   width: 144px;
   height: 51px;
   color: white;
-  background-color: #2a7ae4;
+  background-color: #e4882a;
+  border-radius: 5px;
   border: none;
 }
 /* efecto */

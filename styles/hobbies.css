@@ -1,10 +1,11 @@
-.hobbies{
+/* .hobbies{
     height: 50vh;
-}
+} */
 .hobbies__container{
     max-width: var(--max-width);
     margin: auto;
     padding: 0 30px;
+    margin-bottom: 4rem;
 }
 
 

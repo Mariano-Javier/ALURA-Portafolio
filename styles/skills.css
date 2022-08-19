@@ -1,11 +1,12 @@
-.skills{
+/* .skills{
     height: 50vh;
-}
+} */
 
 .skills__container{
     max-width: var(--max-width);
     margin: auto;
     padding: 0 30px;
+    margin-bottom: 4rem;
 }
 
 .skills__title{
